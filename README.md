@@ -26,9 +26,9 @@ The *run_analysis.R* script adds the data together to one data set and extracts 
 * The numbers of the *activity* column are replaced with the descriptive names they stand for. These are obtained from the file *activity_labels.txt*. *activity_labels.txt* is comprised of a column *V1* with the numbers 1 to 6 and a column *V2* with the spelled out activities. With the `mutate()` function the numeric values of the *activity* column are replaced with the matching words of the *V2* column of the *activity_labels.txt* file. 
 
 * The data set is grouped by *subject* and *activity* with `group_by()` and with `summarise_each(funs(mean))` the average of each variable is calculated. The resulting data frame is called *tidydata*. The line of code that accomplices these tasks is:
-```
-tidydata<-meanandstd %>% group_by(subject,activity)%>% summarise_each(funs(mean))
-```
+  ```
+  tidydata<-meanandstd %>% group_by(subject,activity)%>% summarise_each(funs(mean))
+  ```
 
 * Finally the data is saved in *final_dataset.txt*.
 
