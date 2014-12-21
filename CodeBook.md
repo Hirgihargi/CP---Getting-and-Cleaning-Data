@@ -54,6 +54,8 @@ Following variables are part of the data set:
     
     (*XYZ*...present as a x, y and z component)    
     Each variable is normalized to a value between -1 and 1. In the final data set they are averaged for each activity each subject is performing.
+    
+Thus the final data set consists of 180 rows (30 subjects * 6 actitities) and 68 columns (the *subject* and the *activity* column and the averages of the *mean()* and *std()* of 33 features).
 
 ____
 
