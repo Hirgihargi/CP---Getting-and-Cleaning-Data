@@ -1,9 +1,5 @@
-CP---Getting-and-Cleaning-Data
-==============================
 
-<br>
-
-##ReadMe
+##ReadMe: CP---Getting-and-Cleaning-Data
 
 <br>
 
